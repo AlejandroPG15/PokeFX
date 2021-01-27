@@ -12,7 +12,7 @@ import java.util.Random;
 public class Controller2 {
 
     @FXML
-    public ImageView enemigo;
+    public ImageView contrario;
     @FXML
     public ImageView yo;
 
@@ -45,8 +45,8 @@ public class Controller2 {
     @FXML
     public Label restaryo;
 
-    Pokemons contrincante = new Pokemons("Lucario", 70, 300, "\\Imagenes\\lucario.gif");
     int contVida = 0;
+    Pokemons contrincante = new Pokemons("Reshiram", 50, 200, "\\imagenes\\Reshiram_NB.gif");
     Pokemons nuevo;
     Controller controller;
     private final Random random = new Random();
@@ -56,7 +56,7 @@ public class Controller2 {
         nomenemigo.setText(contrincante.nombre);
         nivelenemigo.setText("Nv." + contrincante.nivel);
         Image image = new Image(contrincante.imagen);
-        enemigo.setImage(image);
+        contrario.setImage(image);
         contVida = pokemon.vida;
 
         nomyo.setText(pokemon.nombre);
@@ -151,8 +151,8 @@ public class Controller2 {
         if (lvlenemigo.getProgress() <= 0) {
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Fin del Combate");
-            alert.setHeaderText("Ganaste!!");
-            alert.setContentText("Enhorabuena mi pequeño padawan");
+            alert.setHeaderText("Enhorabuena");
+            alert.setContentText("La victoria es tuya");
             alert.setGraphic(new ImageView(String.valueOf(this.getClass().getResource(contrincante.imagen))));
             Optional<ButtonType> resultado = alert.showAndWait();
             if (resultado.get() == ButtonType.OK) {
@@ -168,8 +168,8 @@ public class Controller2 {
         if (lvlyo.getProgress() <= 0) {
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             alert.setTitle("Fin del Combate");
-            alert.setHeaderText("Perdiste!!");
-            alert.setContentText("Has perdido...como Ash en todas las finales :(");
+            alert.setHeaderText("Es una pena");
+            alert.setContentText("Entrena y no te rindas");
             alert.setGraphic(new ImageView(String.valueOf(this.getClass().getResource(nuevo.imagen))));
             Optional<ButtonType> resultado = alert.showAndWait();
             if (resultado.get() == ButtonType.OK) {

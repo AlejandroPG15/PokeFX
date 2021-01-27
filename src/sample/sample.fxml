@@ -30,14 +30,14 @@
                     <Image url="@../imagenes/Cinccino_NB.gif" />
                 </ImageView>
                 <Label fx:id="nombre1" layoutX="40.0" layoutY="34.0" prefHeight="17.0" prefWidth="64.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl1" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel1" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="33.0" layoutY="142.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb1" layoutX="48.0" layoutY="145.0" prefHeight="11.0" prefWidth="109.0" progress="1.0">
                     <effect>
                         <ColorAdjust />
                     </effect></ProgressBar>
                 <Label fx:id="vida1" layoutX="43.0" layoutY="159.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb1" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb1" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/hembra.png" />
                 </ImageView>
@@ -49,14 +49,14 @@
                     <Image url="@../imagenes/Gothitelle_NB.gif" />
                 </ImageView>
                 <Label fx:id="nombre2" layoutX="40.0" layoutY="34.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl2" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel2" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="33.0" layoutY="142.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb2" layoutX="48.0" layoutY="145.0" prefHeight="11.0" prefWidth="109.0" progress="1.0">
                     <effect>
                         <ColorAdjust />
                     </effect></ProgressBar>
                 <Label fx:id="vida2" layoutX="43.0" layoutY="159.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb2" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb2" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/hembra.png" />
                 </ImageView>
@@ -68,11 +68,11 @@
                     <Image url="@../imagenes/Manectric.gif" />
                 </ImageView>
                 <Label fx:id="nombre3" layoutX="40.0" layoutY="34.0" prefHeight="17.0" prefWidth="64.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl3" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel3" layoutX="132.0" layoutY="34.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="33.0" layoutY="142.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb3" layoutX="48.0" layoutY="145.0" prefHeight="11.0" prefWidth="109.0" progress="1.0" />
                 <Label fx:id="vida3" layoutX="43.0" layoutY="159.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb3" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb3" layoutX="138.0" layoutY="159.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/masculino.png" />
                 </ImageView>
@@ -84,11 +84,11 @@
                     <Image url="@../imagenes/Swanna_NB.gif" />
                 </ImageView>
                 <Label fx:id="nombre4" layoutX="40.0" layoutY="23.0" prefHeight="17.0" prefWidth="64.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl4" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel4" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="31.0" layoutY="132.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb4" layoutX="46.0" layoutY="134.0" prefHeight="11.0" prefWidth="109.0" progress="1.0" />
                 <Label fx:id="vida4" layoutX="43.0" layoutY="148.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb4" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb4" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/hembra.png" />
                 </ImageView>
@@ -100,11 +100,11 @@
                     <Image url="@../imagenes/Zoroark_NB.gif" />
                 </ImageView>
                 <Label fx:id="nombre5" layoutX="40.0" layoutY="23.0" prefHeight="17.0" prefWidth="64.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl5" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel5" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="31.0" layoutY="132.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb5" layoutX="46.0" layoutY="134.0" prefHeight="11.0" prefWidth="109.0" progress="1.0" />
                 <Label fx:id="vida5" layoutX="43.0" layoutY="148.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb5" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb5" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/masculino.png" />
                 </ImageView>
@@ -116,11 +116,11 @@
                     <Image url="@../imagenes/Zekrom_NB_variocolor.gif" />
                 </ImageView>
                 <Label fx:id="nombre6" layoutX="40.0" layoutY="23.0" prefHeight="17.0" prefWidth="64.0" text="Label" textFill="WHITE" />
-                <Label fx:id="lvl6" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
+                <Label fx:id="nivel6" layoutX="132.0" layoutY="23.0" prefHeight="17.0" prefWidth="44.0" text="Label" textFill="WHITE" />
                 <Label layoutX="31.0" layoutY="132.0" text="PS" textFill="#f3ff00" />
                 <ProgressBar fx:id="pb6" layoutX="46.0" layoutY="134.0" prefHeight="11.0" prefWidth="109.0" progress="1.0" />
                 <Label fx:id="vida6" layoutX="43.0" layoutY="148.0" prefHeight="17.0" prefWidth="53.0" text="Label" textFill="WHITE" />
-                <CheckBox fx:id="chb6" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
+                <CheckBox fx:id="cb6" layoutX="138.0" layoutY="148.0" mnemonicParsing="false" style="-fx-background-color: #28B463;" />
                 <ImageView fitHeight="25.0" fitWidth="28.0" layoutX="164.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
                     <Image url="@../imagenes/hembra.png" />
                 </ImageView>

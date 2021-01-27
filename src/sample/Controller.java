@@ -33,42 +33,36 @@ public class Controller {
     @FXML
     public ImageView imagen6;
 
-
     @FXML
     public Label nombre1;
     @FXML
     public Label nivel1;
     @FXML
     public Label vida1;
-
     @FXML
     public Label nombre2;
     @FXML
     public Label nivel2;
     @FXML
     public Label vida2;
-
     @FXML
     public Label nombre3;
     @FXML
     public Label nivel3;
     @FXML
     public Label vida3;
-
     @FXML
     public Label nombre4;
     @FXML
     public Label nivel4;
     @FXML
     public Label vida4;
-
     @FXML
     public Label nombre5;
     @FXML
     public Label nivel5;
     @FXML
     public Label vida5;
-
     @FXML
     public Label nombre6;
     @FXML
@@ -115,12 +109,12 @@ public class Controller {
     @FXML
     public ProgressBar pb6;
 
-    Pokemons pokemon1 = new Pokemons("Dragonite",65,270,"\\Imagenes\\dragonite.gif");
-    Pokemons pokemon2 = new Pokemons("Absol",45,145,"\\Imagenes\\absol.gif");
-    Pokemons pokemon3 = new Pokemons("Raichu",53,234,"\\Imagenes\\raichu.gif");
-    Pokemons pokemon4 = new Pokemons("Squirtle",35,130,"\\Imagenes\\squirtle.gif");
-    Pokemons pokemon5 = new Pokemons("Vaporeon",58,290,"\\Imagenes\\vaporeon.gif");
-    Pokemons pokemon6 = new Pokemons("Talonflame",50,190,"\\Imagenes\\talonflame.gif");
+    Pokemons pokemon1 = new Pokemons("Cinccino",50,200,"\\imagenes\\Cinccino_NB.gif");
+    Pokemons pokemon2 = new Pokemons("Gothitelle",50,200,"\\imagenes\\Gothitelle_NB.gif");
+    Pokemons pokemon3 = new Pokemons("Manectric",50,200,"\\imagenes\\Manectric.gif");
+    Pokemons pokemon4 = new Pokemons("Swanna",50,200,"\\imagenes\\Swanna_NB.gif");
+    Pokemons pokemon5 = new Pokemons("Zoroark",50,200,"\\imagenes\\Zoroark_NB.gif");
+    Pokemons pokemon6 = new Pokemons("Zekrom",50,200,"\\imagenes\\Zekrom_NB_variocolor.gif");
     Pokemons auxiliar;
 
     @FXML
@@ -135,67 +129,66 @@ public class Controller {
 
     public void clickImagen1(){
         cambiar(nombre1,nivel1,vida1,cb1,p1);
-        pokemon1.imagen = "\\Imagenes\\dragoniteespalda.gif";
+        pokemon1.imagen = "\\imagenes\\Cinccino_espalda_G5.gif";
         auxiliar = pokemon1;
         estatico(nombre2,nivel2,vida2,cb2,p2);
         estatico(nombre3,nivel3,vida3,cb3,p3);
         estatico(nombre4,nivel4,vida4,cb4,p4);
-        estatico(nombre5,nivel6,vida5,cb5,p5);
-        estatico(nombre6,nivel2,vida6,cb6,p6);
+        estatico(nombre5,nivel5,vida5,cb5,p5);
+        estatico(nombre6,nivel6,vida6,cb6,p6);
     }
     public void clickImagen2(){
         estatico(nombre1,nivel1,vida1,cb1,p1);
         cambiar(nombre2,nivel2,vida2,cb2,p2);
-        pokemon2.imagen = "\\Imagenes\\absolespalda.gif";
+        pokemon2.imagen = "\\imagenes\\Gothitelle_espalda_G5.gif";
         auxiliar = pokemon2;
         estatico(nombre3,nivel3,vida3,cb3,p3);
         estatico(nombre4,nivel4,vida4,cb4,p4);
-        estatico(nombre5,nivel6,vida5,cb5,p5);
-        estatico(nombre6,nivel2,vida6,cb6,p6);
+        estatico(nombre5,nivel5,vida5,cb5,p5);
+        estatico(nombre6,nivel6,vida6,cb6,p6);
     }
     public void clickImagen3(){
         estatico(nombre1,nivel1,vida1,cb1,p1);
         estatico(nombre2,nivel2,vida2,cb2,p2);
         cambiar(nombre3,nivel3,vida3,cb3,p3);
-        pokemon3.imagen = "\\Imagenes\\raichuespalda.gif";
+        pokemon3.imagen = "\\imagenes\\Manectric_espalda_G5.gif";
         auxiliar = pokemon3;
         estatico(nombre4,nivel4,vida4,cb4,p4);
-        estatico(nombre5,nivel6,vida5,cb5,p5);
-        estatico(nombre6,nivel2,vida6,cb6,p6);
+        estatico(nombre5,nivel5,vida5,cb5,p5);
+        estatico(nombre6,nivel6,vida6,cb6,p6);
     }
     public void clickImagen4(){
         estatico(nombre1,nivel1,vida1,cb1,p1);
         estatico(nombre2,nivel2,vida2,cb2,p2);
         estatico(nombre3,nivel3,vida3,cb3,p3);
         cambiar(nombre4,nivel4,vida4,cb4,p4);
-        pokemon4.imagen = "\\Imagenes\\squirtleespalda.gif";
+        pokemon4.imagen = "\\imagenes\\Swanna_espalda_G5.gif";
         auxiliar = pokemon4;
-        estatico(nombre5,nivel6,vida5,cb5,p5);
-        estatico(nombre6,nivel2,vida6,cb6,p6);
+        estatico(nombre5,nivel5,vida5,cb5,p5);
+        estatico(nombre6,nivel6,vida6,cb6,p6);
     }
     public void clickImagen5(){
         estatico(nombre1,nivel1,vida1,cb1,p1);
         estatico(nombre2,nivel2,vida2,cb2,p2);
         estatico(nombre3,nivel3,vida3,cb3,p3);
         estatico(nombre4,nivel4,vida4,cb4,p4);
-        cambiar(nombre5,nivel6,vida5,cb5,p5);
-        pokemon5.imagen = "\\Imagenes\\vaporeonespalda.gif";
+        cambiar(nombre5,nivel5,vida5,cb5,p5);
+        pokemon5.imagen = "\\imagenes\\Zoroark_espalda_G5.gif";
         auxiliar = pokemon5;
-        estatico(nombre6,nivel2,vida6,cb6,p6);
+        estatico(nombre6,nivel6,vida6,cb6,p6);
     }
     public void clickImagen6(){
         estatico(nombre1,nivel1,vida1,cb1,p1);
         estatico(nombre2,nivel2,vida2,cb2,p2);
         estatico(nombre3,nivel3,vida3,cb3,p3);
         estatico(nombre4,nivel4,vida4,cb4,p4);
-        estatico(nombre5,nivel6,vida5,cb5,p5);
-        cambiar(nombre6,nivel2,vida6,cb6,p6);
-        pokemon6.imagen = "\\Imagenes\\talonflameespalda.gif";
+        estatico(nombre5,nivel5,vida5,cb5,p5);
+        cambiar(nombre6,nivel6,vida6,cb6,p6);
+        pokemon6.imagen = "\\imagenes\\Zekrom_espalda_G5_variocolor.gif";
         auxiliar = pokemon6;
     }
 
-
-    public static void pokedex(Label nombre, Label nivel, Label vida, ImageView imagen, Pokemons pokemon) {
+    public void pokedex(Label nombre, Label nivel, Label vida, ImageView imagen, Pokemons pokemon) {
         nombre.setText(pokemon.nombre);
         nivel.setText("Nv. "+pokemon.nivel);
         vida.setText(pokemon.vida+"/"+pokemon.vida);
@@ -203,16 +196,15 @@ public class Controller {
         imagen.setImage(image);
     }
 
-    public static void cambiar(Label nombre, Label nivel, Label vida, CheckBox checkbox, Pane pane) {
+    public void cambiar(Label nombre, Label nivel, Label vida, CheckBox checkbox, Pane pane) {
         nombre.setStyle("-fx-text-fill: blue;");
         nivel.setStyle("-fx-text-fill: blue;");
         vida.setStyle("-fx-text-fill: blue;");
         checkbox.setSelected(true);
         pane.setStyle("-fx-background-color: #85C1E9");
-
     }
 
-    public static void estatico(Label nombre, Label nivel, Label vida, CheckBox checkbox, Pane pane) {
+    public void estatico(Label nombre, Label nivel, Label vida, CheckBox checkbox, Pane pane) {
         nombre.setStyle("-fx-text-fill: #ffffff;");
         nivel.setStyle("-fx-text-fill: #ffffff;");
         vida.setStyle("-fx-text-fill: #ffffff;");
@@ -222,7 +214,7 @@ public class Controller {
 
     public void clickSiguiente() throws IOException {
         Stage stage = new Stage();
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("sample2.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("PantallaLucha.fxml"));
         GridPane root = loader.load();
         Scene scene = new Scene(root,600,500);
         stage.setScene(scene);
